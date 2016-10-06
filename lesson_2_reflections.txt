@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+	Git create the environment for you to use the repository. it creates a masked folder named .git which ocntains metadatas for the repository and its files.
+	You need to do it to manage commits on a set of files logically tied in a project.
+
+How is the staging area different from the working directory and the repository? 
+	Staging area permits to add multiple files to a repository in a single commit.
+	It is a logical set of physical files from the wd that are to be added to the repository.
+
+What value do you think it offers?
+	When you need to add multiple files as part of a single logical operation, the staging area is the way to do it in a single commit, instead of having a separate commit for each files.
