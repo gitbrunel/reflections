@@ -8,3 +8,6 @@ How is the staging area different from the working directory and the repository?
 
 What value do you think it offers?
 	When you need to add multiple files as part of a single logical operation, the staging area is the way to do it in a single commit, instead of having a separate commit for each files.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	To have one commit per logical change, you have to put each modified file in the staging area. When you will commit changes, the whole set of files contained in the staging area will be updated together. 
