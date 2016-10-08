@@ -10,4 +10,14 @@ What value do you think it offers?
 	When you need to add multiple files as part of a single logical operation, the staging area is the way to do it in a single commit, instead of having a separate commit for each files.
 
 How can you use the staging area to make sure you have one commit per logical change?
-	To have one commit per logical change, you have to put each modified file in the staging area. When you will commit changes, the whole set of files contained in the staging area will be updated together. 
+	To have one commit per logical change, you have to put each modified file in the staging area. When you will commit changes, the whole set of files contained in the staging area will be updated together.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Branches are usefull when you want to fork a project or to maintain different implementations of an app for multiples clients ort to experiment a major change in the code, or hava a production branch along with developpement branch.
+
+How do the diagrams help you visualize the branch structure?
+	The diagram represents a tree with all the branches at different depth of indentation.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	A new commit is added, labelled with one the two branch name and become the tip of the branch. Looking the history of commits from this  point shows the whole commits of the txo branches merged interlaced chronologically.
+	 
