@@ -20,4 +20,7 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 	A new commit is added, labelled with one the two branch name and become the tip of the branch. Looking the history of commits from this  point shows the whole commits of the txo branches merged interlaced chronologically.
-	 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	automatic merging acts well if changes appears on unrelated files. Otherwise, you can't say if a change won't have an impact in another file modified in another branch, if the value of a constant or a behaviour changes.
+	
