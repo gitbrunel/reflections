@@ -14,3 +14,7 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 	You have to code each set of dependant files seperately. You have to design modules and affect one people to each module. It's hard to have really independant modules but it's easier not having to deal with merging conflicts.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	Complexity is the price to pay when collaborating.
+
